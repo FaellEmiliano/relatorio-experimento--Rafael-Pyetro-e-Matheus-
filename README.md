@@ -3,37 +3,37 @@
 Relatório de aula 07/08
 Foi utilizado diversas ferramentas da plataforma Git para a realização desta atividade e para a realização desta atividade foi necessário diversos procedimentos em 16 etapas as quais serão dissertadas a seguir:
 
-Configurar o user e email com os comandos git config --global user.name e git config --global user.email, nos quais em seguidas devem estar entre aspas os respectivos nome e email do usuário.
+1. Configurar o user e email com os comandos git config --global user.name e git config --global user.email, nos quais em seguidas devem estar entre aspas os respectivos nome e email do usuário.
 
-Verificação do user e do email por meio dos comandos git config-l.
+2. Verificação do user e do email por meio dos comandos git config-l.
 
-Abrir o terminal no Linux e entrar no diretório Documentos por meio do comando cd Documentos.
+3. Abrir o terminal no Linux e entrar no diretório Documentos por meio do comando cd Documentos.
 
-Criar dentro do estudante@debian/Documentos>, o seguinte diretório: AulaGit&GitHub com o comando mkdir AulaGit&GitHub.
+4. Criar dentro do estudante@debian/Documentos>, o seguinte diretório: AulaGit&GitHub com o comando mkdir AulaGit&GitHub.
 
-Entre no diretório cd AulaGit&GitHub e apertar enter.
+5. Entre no diretório cd AulaGit&GitHub e apertar enter.
 
-Criar dentro do diretório estudante@debian/Documentos/AulaGit&GitHub> um subdiretório chamado Aula07082024 com o comando mkdir Aula07082024.
+6. Criar dentro do diretório estudante@debian/Documentos/AulaGit&GitHub> um subdiretório chamado Aula07082024 com o comando mkdir Aula07082024.
 
-Entrar no diretório criado com o comando cd Aula07082024.
+7. Entrar no diretório criado com o comando cd Aula07082024.
 
-Detro do diretório estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> criar um diretório git, executando dentro da pasta que deseja retornar um repositório git o comando git init.
+8. Detro do diretório estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> criar um diretório git, executando dentro da pasta que deseja retornar um repositório git o comando git init.
 
-Entrar no vscode e criar 5 arquivos com seus respectivos conteúdos. Os arquivos são nome.txt, empresa.txt, exercício.txt, index.html e script.js.
+9. Entrar no vscode e criar 5 arquivos com seus respectivos conteúdos. Os arquivos são nome.txt, empresa.txt, exercício.txt, index.html e script.js.
 
-Liste os arquivos que estão dentro do estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status.
+10. Liste os arquivos que estão dentro do estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status.
 
-Adicionar os arquivos para a área de preparação com os comandos git add nomeDoArquivo(se for adicionar apenas um) ou o comando git add.(para adicionar todos os arquivos).
+11. Adicionar os arquivos para a área de preparação com os comandos git add nomeDoArquivo(se for adicionar apenas um) ou o comando git add.(para adicionar todos os arquivos).
 
-Enviar os arquivos para o repositório com os comandos git commit nomeDoArquivo -m "texto"(para apenas um arquivo) ou o comando git commit - "texto"(para todos os arquivos).
+12. Enviar os arquivos para o repositório com os comandos git commit nomeDoArquivo -m "texto"(para apenas um arquivo) ou o comando git commit - "texto"(para todos os arquivos).
 
-Listar os arquivos que estão no estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status novamente.
+13. Listar os arquivos que estão no estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status novamente.
 
-Remover as configurações locais do git com os comandos git config --global --unset user.name e git config --global --unset user.email.
+14. Remover as configurações locais do git com os comandos git config --global --unset user.name e git config --global --unset user.email.
 
-Remover o arquivo com o comando git rm nomeDoArquivo.extensão.
+15. Remover o arquivo com o comando git rm nomeDoArquivo.extensão.
 
-Remover o diretório com o comando git rm -r diretório.
+16. Remover o diretório com o comando git rm -r diretório.
 
 Parte GitHub
 
