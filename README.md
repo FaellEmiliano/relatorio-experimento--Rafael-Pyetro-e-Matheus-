@@ -1,6 +1,5 @@
 # relatorio-experimento--Rafael-Pyetro-e-Matheus-
-
-Relatório de aula 07/08
+Relatório IFDS:
 Foi utilizado diversas ferramentas da plataforma Git para a realização desta atividade e para a realização desta atividade foi necessário diversos procedimentos em 16 etapas as quais serão dissertadas a seguir:
 
 1. Configurar o user e email com os comandos git config --global user.name e git config --global user.email, nos quais em seguidas devem estar entre aspas os respectivos nome e email do usuário.
