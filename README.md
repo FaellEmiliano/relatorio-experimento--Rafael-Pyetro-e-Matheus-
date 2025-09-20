@@ -48,3 +48,8 @@ Tentativas de resolver o problema:
 1 - Mudar aporta de comunicação do git com o github - Não deu certo
 2 - Usar o protocolo SSH ao invés do HTTPS - Não deu certo
 3 - Criar um token PAT para fazer a comunicação - Não deu certo
+
+
+
+
+
