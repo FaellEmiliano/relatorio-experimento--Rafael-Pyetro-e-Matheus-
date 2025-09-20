@@ -1,4 +1,22 @@
 # relatorio-experimento--Rafael-Pyetro-e-Matheus-
+
+
+
+
+# Introdução
+
+O presente relatório tem como objetivo apresentar de forma detalhada os
+procedimentos realizados durante a atividade prática de utilização das
+ferramentas **Git** e **GitHub**. A atividade foi estruturada em etapas
+sequenciais que abrangeram desde a configuração inicial do usuário no
+terminal até a criação de repositórios locais e remotos, além da
+tentativa de sincronização com a plataforma GitHub. Por meio dessa
+prática, buscou-se consolidar os conceitos de versionamento de código,
+organização de arquivos e aplicação dos principais comandos necessários
+para o controle e gerenciamento de projetos.
+
+
+
 Relatório IFDS:
 Foi utilizado diversas ferramentas da plataforma Git para a realização desta atividade e para a realização desta atividade foi necessário diversos procedimentos em 16 etapas as quais serão dissertadas a seguir:
 
@@ -52,4 +70,15 @@ Tentativas de resolver o problema:
 
 
 
+# Conclusão
 
+A atividade possibilitou a aplicação prática dos principais recursos do
+**Git** e a compreensão do processo de integração com o **GitHub**,
+ainda que a sincronização com o repositório remoto não tenha sido
+concluída devido a limitações técnicas impostas pelo firewall do campus.
+Apesar dessa restrição, os passos realizados permitiram explorar desde a
+configuração do ambiente até o manuseio de diretórios, arquivos e
+commits, reforçando a importância do versionamento no desenvolvimento de
+projetos colaborativos. Assim, a experiência contribuiu
+significativamente para o aprendizado e familiarização com ferramentas
+essenciais ao trabalho em equipe e à organização de código-fonte.
