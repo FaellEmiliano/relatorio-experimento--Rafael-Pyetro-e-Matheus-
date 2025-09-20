@@ -1,84 +1,69 @@
-# relatorio-experimento--Rafael-Pyetro-e-Matheus-
+# Relatório de Experimento
+**Autores:** Rafael, Pyetro e Matheus
 
+---
 
+## Introdução
 
+O presente relatório tem como objetivo apresentar de forma detalhada os procedimentos realizados durante a atividade prática de utilização das ferramentas **Git** e **GitHub**. A atividade foi estruturada em etapas sequenciais que abrangeram desde a configuração inicial do usuário no terminal até a criação de repositórios locais e remotos, além da tentativa de sincronização com a plataforma GitHub. Por meio dessa prática, buscou-se consolidar os conceitos de versionamento de código, organização de arquivos e aplicação dos principais comandos necessários para o controle e gerenciamento de projetos.
 
-# Introdução
+---
 
-O presente relatório tem como objetivo apresentar de forma detalhada os
-procedimentos realizados durante a atividade prática de utilização das
-ferramentas **Git** e **GitHub**. A atividade foi estruturada em etapas
-sequenciais que abrangeram desde a configuração inicial do usuário no
-terminal até a criação de repositórios locais e remotos, além da
-tentativa de sincronização com a plataforma GitHub. Por meio dessa
-prática, buscou-se consolidar os conceitos de versionamento de código,
-organização de arquivos e aplicação dos principais comandos necessários
-para o controle e gerenciamento de projetos.
+## Relatório IFDS
 
+Foram utilizadas diversas ferramentas da plataforma **Git** para a realização desta atividade. Para isso, foram necessários diversos procedimentos em **16 etapas**, que serão dissertadas a seguir:
 
+### Etapas com Git
 
-Relatório IFDS:
-Foi utilizado diversas ferramentas da plataforma Git para a realização desta atividade e para a realização desta atividade foi necessário diversos procedimentos em 16 etapas as quais serão dissertadas a seguir:
+1.  **Configurar o user e email** com os comandos `git config --global user.name "nome"` e `git config --global user.email "email"`.
 
-1. Configurar o user e email com os comandos git config --global user.name e git config --global user.email, nos quais em seguidas devem estar entre aspas os respectivos nome e email do usuário.
+2.  **Verificar a configuração** do usuário e do email por meio do comando `git config-l`.
 
-2. Verificação do user e do email por meio dos comandos git config-l.
+3.  **Abrir o terminal no Linux** e entrar no diretório `Documentos` com o comando `cd Documentos`.
 
-3. Abrir o terminal no Linux e entrar no diretório Documentos por meio do comando cd Documentos.
+4.  **Criar o diretório** `AulaGit&GitHub` com o comando `mkdir AulaGit&GitHub` dentro de `estudante@debian/Documentos>`.
 
-4. Criar dentro do estudante@debian/Documentos>, o seguinte diretório: AulaGit&GitHub com o comando mkdir AulaGit&GitHub.
+5.  **Entrar no diretório** `AulaGit&GitHub` com o comando `cd AulaGit&GitHub`.
 
-5. Entre no diretório cd AulaGit&GitHub e apertar enter.
+6.  **Criar o subdiretório** `Aula07082024` com o comando `mkdir Aula07082024` dentro de `estudante@debian/Documentos/AulaGit&GitHub>`.
 
-6. Criar dentro do diretório estudante@debian/Documentos/AulaGit&GitHub> um subdiretório chamado Aula07082024 com o comando mkdir Aula07082024.
+7.  **Entrar no diretório criado** com o comando `cd Aula07082024`.
 
-7. Entrar no diretório criado com o comando cd Aula07082024.
+8.  **Iniciar um repositório Git** executando o comando `git init` dentro da pasta `estudante@debian/Documentos/AulaGit&GitHub/Aula07082024>`.
 
-8. Detro do diretório estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> criar um diretório git, executando dentro da pasta que deseja retornar um repositório git o comando git init.
+9.  **Criar 5 arquivos com conteúdo** dentro do VS Code. Os arquivos são: `nome.txt`, `empresa.txt`, `exercício.txt`, `index.html` e `script.js`.
 
-9. Entrar no vscode e criar 5 arquivos com seus respectivos conteúdos. Os arquivos são nome.txt, empresa.txt, exercício.txt, index.html e script.js.
+10. **Listar os arquivos** dentro do diretório `estudante@debian/Documentos/AulaGit&GitHub/Aula07082024>` com o comando `git status`.
 
-10. Liste os arquivos que estão dentro do estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status.
+11. **Adicionar os arquivos para a área de preparação** (staging area) com os comandos `git add nomeDoArquivo` (para adicionar um único arquivo) ou `git add .` (para adicionar todos os arquivos).
 
-11. Adicionar os arquivos para a área de preparação com os comandos git add nomeDoArquivo(se for adicionar apenas um) ou o comando git add.(para adicionar todos os arquivos).
+12. **Fazer o commit dos arquivos** para o repositório com os comandos `git commit -m "texto"` (para todos os arquivos) ou `git commit nomeDoArquivo -m "texto"` (para um único arquivo).
 
-12. Enviar os arquivos para o repositório com os comandos git commit nomeDoArquivo -m "texto"(para apenas um arquivo) ou o comando git commit - "texto"(para todos os arquivos).
+13. **Listar os arquivos novamente** com o comando `git status`.
 
-13. Listar os arquivos que estão no estudante@debian/Documentos/AulaGit&GitHub/Aula07082024> com o comando git status novamente.
+14. **Remover as configurações locais** do Git com os comandos `git config --global --unset user.name` e `git config --global --unset user.email`.
 
-14. Remover as configurações locais do git com os comandos git config --global --unset user.name e git config --global --unset user.email.
+15. **Remover um arquivo** com o comando `git rm nomeDoArquivo.extensão`.
 
-15. Remover o arquivo com o comando git rm nomeDoArquivo.extensão.
+16. **Remover um diretório** com o comando `git rm -r diretório`.
 
-16. Remover o diretório com o comando git rm -r diretório.
+---
 
-Parte GitHub
+## Parte GitHub
 
-1) Foi criada uma conta no github(https://github.com/)
-    A conta foi criada com o mesmo email usado na parte de configurar o git, para que não de erro
+1.  **Criação de conta**: Foi criada uma conta no GitHub (https://github.com/) utilizando o mesmo e-mail configurado no Git para evitar problemas.
 
-2) Foi criado um repositório público 
+2.  **Criação de repositório**: Um repositório público foi criado.
 
-3) Foi feita a tentaiva de sincronizar o repositório local do git, com o repositório na nuvem do  github
-    A sincronização usando o "git push origin main" não conseguiu ser feita, o firewall do Campus bloqueava a comunicação com o github e assim não foi possível fazer o push. Para tentar contornar a situação eu tentei resolver o problema con os seguintes métodos:
+3.  **Tentativa de sincronização**: Foi feita uma tentativa de sincronizar o repositório local do Git com o repositório remoto no GitHub. No entanto, o comando `git push origin main` não pôde ser executado, pois o firewall do campus bloqueou a comunicação com o GitHub.
 
-Tentativas de resolver o problema: 
-1 - Mudar aporta de comunicação do git com o github - Não deu certo
-2 - Usar o protocolo SSH ao invés do HTTPS - Não deu certo
-3 - Criar um token PAT para fazer a comunicação - Não deu certo
+    **Tentativas para resolver o problema:**
+    * Mudar a porta de comunicação do Git com o GitHub. (Não funcionou)
+    * Usar o protocolo SSH em vez do HTTPS. (Não funcionou)
+    * Criar um token PAT (Personal Access Token) para a comunicação. (Não funcionou)
 
+---
 
+## Conclusão
 
-
-# Conclusão
-
-A atividade possibilitou a aplicação prática dos principais recursos do
-**Git** e a compreensão do processo de integração com o **GitHub**,
-ainda que a sincronização com o repositório remoto não tenha sido
-concluída devido a limitações técnicas impostas pelo firewall do campus.
-Apesar dessa restrição, os passos realizados permitiram explorar desde a
-configuração do ambiente até o manuseio de diretórios, arquivos e
-commits, reforçando a importância do versionamento no desenvolvimento de
-projetos colaborativos. Assim, a experiência contribuiu
-significativamente para o aprendizado e familiarização com ferramentas
-essenciais ao trabalho em equipe e à organização de código-fonte.
+A atividade possibilitou a aplicação prática dos principais recursos do **Git** e a compreensão do processo de integração com o **GitHub**, ainda que a sincronização com o repositório remoto não tenha sido concluída devido a limitações técnicas impostas pelo firewall do campus. Apesar dessa restrição, os passos realizados permitiram explorar desde a configuração do ambiente até o manuseio de diretórios, arquivos e commits, reforçando a importância do versionamento no desenvolvimento de projetos colaborativos. Assim, a experiência contribuiu significativamente para o aprendizado e familiarização com ferramentas essenciais ao trabalho em equipe e à organização de código-fonte.
